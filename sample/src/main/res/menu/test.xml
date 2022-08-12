@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/pharmacy_selector"
+        android:title="Pharmacy"
+        app:cnb_iconColor="@color/home"/>
+
+    <item
+        android:id="@+id/activity"
+        android:icon="@drawable/health_selector"
+        android:title="Centers"
+        app:cnb_iconColor="@color/activity"/>
+
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/vision_selector"
+        android:title="Vision"
+        app:cnb_iconColor="@color/favorites" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/insurance_selector"
+        android:title="Services"
+        app:cnb_iconColor="@color/settings" />
+
+</menu>
